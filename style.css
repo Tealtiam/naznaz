@@ -1,0 +1,99 @@
+:root {
+    --text: #652424;
+    --bg: #f6fdf7;
+    --accent: #f66151;
+    --accent2: #cebe8c;
+
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    box-sizing: border-box;
+    color: var(--text);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    background-image: url(https://64.media.tumblr.com/2b457056bc508d1521bb5fc5a56d7a81/tumblr_inline_n25a2sInYp1qhwjx8.gif);
+  background-attachment: fixed;
+}
+
+header {}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 0 0 1rem 1rem;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--accent2);
+    outline: var(--text) 4px solid;
+
+
+}
+
+nav {
+
+    align-self: center;
+    padding: 10px;
+}
+
+
+nav span {
+    color: var(--text);
+    background: transparent;
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 0.5rem;
+    transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.box21 {
+    margin:1em 0; /* 中央寄せは0をautoに変更 */
+    width:80% /* 幅 */
+    }
+    .u01 {
+    background:url(f-ue.gif) repeat-x;
+    height:23px;
+    margin:0 23px
+    }
+    .s01 {
+    background:url(f-sita.gif) repeat-x;
+    height:23px;
+    margin:0 23px
+    }
+    .box-top {
+    background-image:url(f-kado1.gif), url(f-kado2.gif);
+    background-position:top left, top right;
+    background-repeat:no-repeat, no-repeat;
+    height:23px
+    }
+    .box-center {
+    background-image:url(f-migi.gif), url(f-hidari.gif);
+    background-position:top right, top left;
+    background-repeat:repeat-y, repeat-y
+    }
+    .box-inner {
+    background:#cebe8c; /* 背景色 */
+    margin:0 23px
+    }
+    .box-bottom {
+    background-image:url(f-kado3.gif), url(f-kado4.gif);
+    background-position:top left, top right;
+    background-repeat:no-repeat, no-repeat;
+    height:23px
+    }
